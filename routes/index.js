@@ -10,7 +10,7 @@ router.get("/sensordataget", function (req, res, next) {
       "&voc_value=" +
       req.query.voc_value +
       "&carbon_value=" +
-      req.query.voc_value +
+      req.query.carbon_value +
       ""
   )
     .then((response) => response.text())
